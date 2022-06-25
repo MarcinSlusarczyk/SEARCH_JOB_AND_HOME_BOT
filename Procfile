@@ -1,0 +1,1 @@
+worker: python oferty_praca_bot.py

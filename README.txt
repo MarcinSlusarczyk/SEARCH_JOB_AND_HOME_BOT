@@ -10,5 +10,12 @@ deploy apki na heroku:
 
 3. utworzenie pliku requirements.txt (w terminalu: pip freeze > requirements.txt)
 
-4. kolejnym krokiem jest utworzenie apki na githubie i podłączenie sie do niej poprzez heroku (przez Pycharma VCS > Share project on GitHub)
+4. kolejnym krokiem jest utworzenie apki na githubie i podłączenie sie do niej poprzez heroku (przez Pycharma VCS > Share project on GitHub lub ręcznie:
 
+    terminal:
+
+    heroku login
+    heroku git: remote -a oferty_praca_bot
+    git add .
+    git commit -am "First commit"
+    git push heroku master
