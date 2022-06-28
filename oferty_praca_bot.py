@@ -6,7 +6,7 @@ from pushbullet import Pushbullet
 
 stanowisko = ('finanse-ksiegowosc', 'administracja-biurowa')
 
-token = 'o.lGOcxCB8xKCqakqyriANUr2X1uqJMlta'
+token = PUSHBULLET_KEY
 pb = Pushbullet(token)
 
 
