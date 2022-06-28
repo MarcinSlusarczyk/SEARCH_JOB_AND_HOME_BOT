@@ -10,7 +10,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 from pushbullet import Pushbullet
 
-token = 'o.lGOcxCB8xKCqakqyriANUr2X1uqJMlta'
+token = PUSHBULLET_KEY
 pb = Pushbullet(token)
 
 
